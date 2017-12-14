@@ -1,0 +1,39 @@
+.main-header {
+    height: 100vh;
+    background-image: $headerGradient, url(../img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $mywhite;
+
+    h2 {
+        font-family: $fontDroid;
+    }
+
+    h1 {
+        font-family: $fontMont;
+        font-size: 4em;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    a {
+        font-family: $fontMont;
+        font-weight: 700;
+        background-color: $mygreen;
+        border: 1px solid $mygreen;
+        transition: all 0.3s;
+        text-transform: uppercase;
+
+        &:hover {
+            font-weight: 700;
+            background-color: $mywhite;
+            border: 1px solid $mygreen;
+            color: $mygreen;
+            text-transform: uppercase;
+        }
+    }
+}
