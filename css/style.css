@@ -192,6 +192,10 @@
     background-repeat: no-repeat;
 }
 
+#contact header {
+    margin-bottom: 50px;
+}
+
 #contact header h2 {
     color: #fff;
 }
@@ -230,6 +234,11 @@
     color: #0ed8d6;
 }
 
+#contact input[type='text']:first-child,
+    #contact textarea[type='text']:first-child {
+    margin-top: 20px;
+}
+
 #contact .contact-form-column {
     display: flex;
     flex-direction: column;
@@ -239,7 +248,8 @@
 
 #contact textarea {
     width: 100%;
-    height: 100%;
+    height: 91%;
+    margin-top: 20px;
 }
 
 #main-footer {

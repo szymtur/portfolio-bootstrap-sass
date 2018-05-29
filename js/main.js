@@ -1,5 +1,8 @@
 $(document).ready(function(){
     scrolled();
+    smoothScroll();
+    closeNavMenu();
+    
 });
 
 $(window).scroll(function(){
@@ -16,6 +19,26 @@ function scrolled(){
         $('#main-nav').removeClass('scrolled');
     }
 }
-    
-    
+
+function smoothScroll(){
+    $("a[href*=\\#]").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+
+                window.location.hash = hash;
+            });
+        } 
+    });
+}
+
+function closeNavMenu(){
+    $('.navbar-nav li a').click(function(){ 
+        $('.navbar-collapse').collapse('hide');
+    });
+}
 
