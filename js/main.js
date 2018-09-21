@@ -2,7 +2,7 @@ $(document).ready(function(){
     scrolled();
     smoothScroll();
     closeNavMenu();
-    
+    scrollTop();
 });
 
 $(window).scroll(function(){
@@ -42,3 +42,12 @@ function closeNavMenu(){
     });
 }
 
+function scrollTop(){
+    let buttonSubmit = $('input[type="submit"]');
+
+    buttonSubmit.on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 1500, 'linear');
+        return false;
+    });
+}
