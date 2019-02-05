@@ -51,3 +51,6 @@ function scrollTop(){
         return false;
     });
 }
+
+//fixing :hover on touchscreen
+(function(l){let i,s={touchend:function(){}};for(i in s)l.addEventListener(i,s)})(document);
