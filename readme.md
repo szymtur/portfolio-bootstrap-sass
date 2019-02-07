@@ -6,7 +6,7 @@
 [https://szymtur.github.io/portfolio-bootstrap-sass](https://szymtur.github.io/portfolio-bootstrap-sass)
 
 ### Description:
-Reflected layout of the website.
+Bootstrap/SASS Workshop
 
 ### Technologies used:
 - HTML5
