@@ -2,18 +2,18 @@
 
 ![](img/layout/layout.png)
 
-###Link:
+### Link:
 [https://szymtur.github.io/portfolio-bootstrap-sass](https://szymtur.github.io/portfolio-bootstrap-sass)
 
-###Description:
+### Description:
 Reflected layout of the website.
 
-###Technologies used:
+### Technologies used:
 - HTML5
 - SASS
 - Bootstrap
 - JavaScript
 - jQuery
 
-###Tools used:
+### Tools used:
 - Gulp
