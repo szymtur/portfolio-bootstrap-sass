@@ -6,7 +6,7 @@
 [https://szymtur.github.io/portfolio-bootstrap-sass](https://szymtur.github.io/portfolio-bootstrap-sass)
 
 ### Description:
-Bootstrap/SASS Workshop
+Responsive Web Designing Using Bootstrap Workshop.
 
 ### Technologies used:
 - HTML5
