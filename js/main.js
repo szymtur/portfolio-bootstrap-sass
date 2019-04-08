@@ -14,7 +14,7 @@ $(document).ready(function(){
 function scrolled(){
     var navHeight = $('#main-nav').outerHeight();
     var scrolled = $(window).scrollTop();
-    
+
     if(scrolled > navHeight){
         $('#main-nav').addClass('scrolled');
     } else {
@@ -34,7 +34,7 @@ function smoothScroll(){
 
                 window.location.hash = hash;
             });
-        } 
+        }
     });
 }
 
